@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\AdminProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\FoodController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend.index');
 });
+Route::get('/items', function () {
+    return view('frontend.item');
+})->name('items');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -43,3 +47,7 @@ Route::middleware(['auth:admin'])->group(function () {
 });
 
 require __DIR__.'/adminauth.php';
+
+Route::group(['middleware'=>['auth:admin'], 'prefix'=> 'dashboard'], function(){
+    Route::resource('foods', FoodController::class);
+});

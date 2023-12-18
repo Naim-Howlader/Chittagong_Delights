@@ -69,7 +69,7 @@
         <a class="nav-link active" aria-current="page" href="./about_us.html">ABOUT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="./items.html">ITEMS</a>
+        <a class="nav-link active" aria-current="page" href="{{route('items')}}">ITEMS</a>
       </li>
       <!-- <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="#">PAGES</a>
