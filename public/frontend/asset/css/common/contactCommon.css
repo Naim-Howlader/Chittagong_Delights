@@ -1,0 +1,214 @@
+/* googlefont */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Condensed:ital,wght@1,500;1,800&family=Roboto:wght@400;700;900&display=swap');
+
+/* COMMON CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style: none;
+}
+.container{
+  margin: auto;
+}
+h1,h2,h3,h4,h5,h6,ol,ul,span,p{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+:root{
+  --primaryfont: 'Roboto', sans-serif;
+  --secondaryfont:'Roboto Condensed', sans-serif;
+  --thirdfont: 'Inter', sans-serif;
+  --primarycolor:#C33;
+  --secondcolor:#2A435D;
+  --thirdColor:#fff;
+  --FourColor:#FFF8EE;
+}
+
+
+button{
+    background-color: transparent;
+    border: 1px solid var(--thirdColor);
+    padding: 8px;
+    color: var(--thirdColor);
+}
+
+.Btn button{
+  color: var(--FourColor);
+  font-family:var(--primaryfont);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 8px 20px;
+  background-color: var(--primarycolor);
+  border-radius: 10px;
+
+}
+/* COMMON CSS ENDS */
+
+/* HEADER CSS  */
+#Header{
+    background-color: var(--primarycolor);
+    padding: 8px 0;
+}
+
+/* HEADER CSS ENDS */
+
+
+/* Items Details section css */
+#Items_details{
+  margin-top: 30px;
+}
+#Items_details .detailsCnt1 img{
+  width: 100%;
+  height: 350px;
+}
+
+#Items_details .detailsCnt1 .details_Img img{
+  width: 100%;
+  height: 230px;
+  margin-top: 20px;
+}
+
+#Items_details .detailsCnt2 p{
+  color: var(--secondcolor);
+  font-family: var(--primaryfont);
+  font-size: 18px;
+  font-weight: 400;
+ 
+}
+
+#Items_details .detailsCnt2 .Btn.BtnContent button{
+  margin: 115px 0 0 188px;
+  font-size: 35px;
+  padding: 25px 65px;
+}
+
+#Items_details span .SeeMore{
+  color: var(--primarycolor);
+  font-family: var(--primaryfont);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: block;
+  margin: 60px 0 30px 0;
+  padding-left: 45%;
+  
+}
+
+/* items Details section css ends */
+
+/* footer section css */
+
+#contactus h2{
+  color: var(--secondcolor);
+  font-family: var(--primaryfont);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding: 65px 0 35px 0;
+}
+#contactus .footer_cnt{
+  background-color: var(--primarycolor);
+  height: 198px;
+}
+
+#contactus .contactinfo{
+  text-align: center;
+  margin-top: 35px;
+}
+
+#contactus .contactinfo h1{
+  color: var(--thirdColor);
+  font-family: var(--primaryfont);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#contactus .contactinfo h4{
+  color: var(--thirdColor);
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#contactus .contactCnt{
+  padding-left: 50px;
+}
+
+.hours_text span{
+  color: var(--thirdColor);
+  font-family: var(--primaryfont);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+.contact_text span{
+  color: var(--thirdColor);
+  font-family: var(--primaryfont);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact_text span a{
+  color: var(--thirdColor);
+}
+
+.contactinfo .maps_cnt a{
+  color: #4BFF3C;
+  font-family: var(--primaryfont);
+  font-size: 18px;
+  display: block;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+/* footer section css ends */
+
+/* underfooter section css */
+#underFooter{
+  background-color: var(--secondcolor);
+  height: 40px;
+  color: var(--thirdColor);
+  font-family: var(--secondaryfont);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+/* underfooter section css ends */
+
+/* preloader section Css */
+
+.preloader{
+  background-color: #fff;
+  inset: 0;
+  z-index: 99;
+  position: fixed;
+  display: grid;
+  place-items: center;
+}
+
+/* preloader section Css Ends */

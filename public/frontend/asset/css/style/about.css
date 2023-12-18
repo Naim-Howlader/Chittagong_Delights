@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* !COMMON CSS START  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFF8EE;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --primarycolor:#FFF8EE;
+    --secondarycollor:#2A435D;
+    --thirdcolor:#C33;
+    --linkColor: #4BFF3C;
+    --primaryfont:'Roboto', sans-serif;
+}
+/* .container{
+    width: 1100px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* !COMMON CSS END */
+
+#Header{
+    background-color: var(--thirdcolor);
+    padding: 8px 0;
+}
+
+
+/* HEADER CSS  */
+#Header .hours span i{
+    font-size: 20px;
+    margin-right: 8px;
+    color: var(--primarycolor);
+}
+
+#Header 
+.hours, 
+.headerCnt1 span{
+    color: var(--primarycolor);
+    font-family: var(--primaryfont);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.headerCnt1 i{
+   font-size: 20px; 
+   margin-right: 8px;
+   color: var(--primarycolor);
+   
+}
+
+.headerCnt1 a{
+    color: var(--primarycolor);
+}
+
+.headerCnt2 a{
+    color: var(--thirdColor);
+    font-family: var(--primaryfont);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+    display: block;
+    
+}
+
+.headerCnt2 button{
+    background-color: transparent;
+    border: 1px solid var(--primarycolor);
+    padding: 8px;
+    color: var(--primarycolor);
+    transition: 0.45s;
+}
+
+.headerCnt2 button:hover{
+    background-color: rgba(0, 0,0, 0.35);
+
+}
+/* hEADER CSS ENDS */
+/* NavBar Css  */
+
+
+.navbar .navbar-brand img{
+    width: 90px;
+    height: 60px;
+}
+
+.navbar .nav-item a{
+    color: var(--secondarycollor);
+    font-family: var(--primaryfont);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 30px;
+}
+
+.DeliveryIcon{
+    font-size: 35px;
+    margin-right: 13px;
+    color: var(--secondarycollor);
+    position: relative;
+}
+
+.DeliveryIcon a{
+    color: var(--secondarycollor);
+}
+
+.DeliveryIcon span{
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    color: var(--primarycolor);
+    font-family: var(--primaryfont);
+    font-size: 15px;
+    font-style: normal;
+    font-weight:600;
+    line-height: normal;
+    background-color:var(--secondarycollor);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+.DeliveryImg img{
+    width: 35px;
+    height: 35px;
+    margin-right: 45px;
+}
+   
+.DeliveryCnt h1{
+    color: var(--secondarycollor);
+    font-family: var(--primaryfont);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 10px;
+    margin-right: 10px;
+  }
+
+.DeliveryCnt .NumberCnt a{
+     color: var(--secondarycollor);
+     font-family: var(--primaryfont);
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+}
+
+.Btn button{
+    color: var(--primarycolor);
+    font-family:var(--primaryfont);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 8px 20px;
+    background-color: var(--thirdcolor);
+    border-radius: 10px;
+
+}
+/* NavBar Css Ends */
+
+
+/* BANNER SECTION START  */
+#aboutUs{
+    background-image: url('/asset/images/aboutimages/banner.png');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#aboutUs h2{
+color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#aboutUs h5{
+color: var(--primarycolor);
+text-align: justify;
+font-family: var(--primaryfont);
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#aboutUs .center{
+    display: inline-block;
+    margin: 80px 0px;
+}
+#aboutUs .center h2{
+    text-align: center;
+}
+#aboutUs .center h5{
+    text-align: center;
+}
+/* BANNER SECTION END */
+
+/*todo main section start */
+.queen{
+    width: 1173px;
+    height: 383px;
+    border: 2px solid #C33;
+    border-radius: 20px;
+    margin: 30px auto 70px;
+    /* position: relative; */
+}
+.queen .queenImg{
+    /* position: absolute;
+    top: 0;
+    left: 40px; */
+    width: 490px;
+    height: 294px; 
+    margin: 45px 50px 0 62px;
+}
+.queenText{
+    /* position: absolute;
+    top: 0;
+    right: 40px; */
+    width: 490px;
+    height: 294px; 
+    margin: 45px 0 62px;
+}
+.queen .queenText h3{
+    color:  var(--secondarycollor) ;
+    text-align: justify;
+    font-family: var(--primaryfont);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 20px 0 20px;
+}
+.queen .queenText h4{
+    color: var(--secondarycollor);
+    text-align: justify;
+    font-family: var(--primaryfont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*todo main section end */
+
+/** ourStory */
+
+#ourStory h1{
+    color:  var(--thirdcolor);
+    text-align: justify;
+    font-family: var(--primaryfont);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 27px;
+}
+#ourStory .storyTxt{
+    margin-top: 46px;
+}
+#ourStory .storyTxt h2{
+    color: var(--secondarycollor);
+    font-family: var(--primaryfont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+}
+#ourStory .storyimg img{
+    width: 511px;
+    height: 294px;
+}
+/** ourStory end */
+
+/* ourChef */
+#ourChef{
+    margin: 50px 0 70px;
+    background-color: #FFDFDF;
+}
+#ourChef .chefDes h3{
+    color:var(--thirdcolor);
+    text-align: justify;
+    font-family: var(--primaryfont);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 28px;
+}
+#ourChef .chefDes h2{
+    color: var(--secondarycollor);
+    text-align: justify;
+    font-family: var(--primaryfont);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#ourChef .chefDes h5{
+    color: var(--secondarycollor);
+    text-align: justify;
+    font-family: var(--primaryfont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#ourChef .btn{
+    width: 300px;
+    height: 60px;
+    line-height: 45px;
+    background-color: var(--thirdcolor);
+    display: inline-block;
+    font-size: 25px;
+    font-family: var(--primaryfont);
+    font-weight: 400;
+    border-radius: 20px;
+    color: var(--primarycolor);
+    margin-top: 36px;
+    margin-left: 60%;
+    cursor: pointer;
+    transition: .44s;
+}
+#ourChef .btn:hover{
+    color:var(--thirdcolor);
+    background-color:  var(--primarycolor);
+    border: 3px solid #C33;
+}
+/* ourChef end*/
+/** slider start */
+#service .serviceTxt{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#service .serviceTxt h2{
+    color: var(--secondarycollor);
+    text-align: center;
+    font-family: var(--primaryfont);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+#service .serviceTxt h6{
+    color: var(--thirdcolor);
+    font-family: var(--primaryfont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#service .slider .slick{
+    display: inline-block;
+    margin: 0 10px;
+}
+#service .slider .slick h2{
+    color: var(--thirdcolor);
+    text-align: center;
+    font-family: var(--primaryfont);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 21px;
+}
+#service .slider .slick p{
+    color: var(--secondarycollor);
+text-align: center;
+font-family: var(--primaryfont);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.customDots{
+    text-align: center;
+    margin-top: 51px;
+}
+.customDots li{
+    display: inline-block;
+    margin: 0 4px;
+}
+.customDots li button{
+    width: 20px;
+height: 20px;
+background-color: transparent;
+border-radius: 50%;
+color: transparent;
+border: 3px solid #C33;
+cursor: pointer;
+transition: 0.35s ease;
+}
+.customDots li.slick-active button{
+    background-color: var(--thirdcolor);
+}
+/* slider end */
+
+/* *ourTeam START */
+#ourTeam{
+    margin: 60px 0 0 0;
+}
+#ourTeam .teamIntro{
+    text-align: center;
+    margin-bottom: 42px ;
+}
+#ourTeam .teamIntro h2{
+    color:  var(--secondarycollor);
+text-align: center;
+font-family: var(--primaryfont);
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#ourTeam .teamIntro h6{
+    color:  var(--secondarycollor);
+font-family: var(--primaryfont);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+ #ourTeam .team{
+    width: 360px;
+    height: 550px;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+ }
+ #ourTeam .team img{
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+#ourTeam .member{
+    width: 343px;
+    height: 343px;
+    border-radius: 50%;
+    border: 3px solid #C33;
+    margin: auto;
+   margin-bottom: 42px;
+   margin-top: 60px;
+}
+#ourTeam .team .icon{
+  text-align: center;
+}
+#ourTeam .team .icon .fa-brands{
+    font-size: 21px;
+    margin: 0 12px;
+    color: var(--thirdcolor);
+}
+#ourTeam .member .memberInfo{
+    width: 230px;
+    text-align: center;
+    margin: auto;
+    margin-top: 45%;
+}
+#ourTeam .member .memberInfo h3{
+    color: var(--secondarycollor);
+text-align: center;
+font-family: var(--primaryfont);
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#ourTeam .member .memberInfo p{
+    color: var(--secondarycollor);
+text-align: center;
+font-family: var(--primaryfont);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* *ourTeam END */
+
+/* todo OUR BRANCH SECTION START */
+.branch{
+    width: 100%;
+    background-color: var(--thirdcolor);
+    padding: 37px 0 17px;
+}
+#ourBranch h2{
+    color: var(--secondarycollor);
+font-family: var(--primaryfont);
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+     text-align: center;
+     margin-bottom: 35px;
+}
+#ourBranch .food{
+    display: inline-block;
+    text-align: center;
+}
+#ourBranch .food h3{
+    color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#ourBranch .food address{
+    color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 13px;
+}
+#ourBranch .food .fa-solid{
+    color: var(--primarycolor);
+}
+#ourBranch .food .time{
+    padding:0 15px 23px;
+    color: var(--primarycolor);
+    font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#ourBranch .food .call{
+    color: var(--primarycolor);
+    padding: 0 0 15px;
+    font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#ourBranch .food .timeCall{
+    margin-bottom: 16px;
+}
+#ourBranch .food .map{
+    color: #4BFF3C;
+font-family: var(--primaryfont);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* todo OUR BRANCH SECTION END */
+
+#aboutUsCont .aboutUsContDiv .aboutUsContDetails h5{
+    color: var(--secondarycollor);
+    text-align: justify;
+    /* H1 Heading 20px Roboto bold */
+    font-family: var(--primaryfont);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+#aboutUsCont .aboutUsContDiv .aboutUsContDetails p{
+    color:var(--secondarycollor);
+    text-align: justify;
+    /* H1 Heading 18px Roboto Regular */
+    font-family:var(--primaryfont);
+    font-size: 18px;
+    font-weight: 400;
+}
+.aboutUsContDiv {
+    border: 3px solid var(--thirdcolor);
+    padding: 45px;
+    border-radius: 20px;
+}
+
+
+.AboucustomDots{
+    position: absolute;
+    left: 45%;
+    bottom: -35%;
+  }
+
+
+  .AboucustomDots li{
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 0px;
+    color: bisque;
+    
+  }
+  
+  .AboucustomDots li button{
+    width: 13px;
+    height: 13px;
+    background-color: #333;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.45s;
+  }
+  
+  .AboucustomDots li.slick-active button{
+    background-color:var(--red);
+    
+  }
+  

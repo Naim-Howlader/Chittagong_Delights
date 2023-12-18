@@ -1,0 +1,669 @@
+
+:root{
+  --primaryfont: 'Roboto', sans-serif;
+  --secondaryfont:'Roboto Condensed', sans-serif;
+  --thirdfont: 'Inter', sans-serif;
+  --primarycolor:#C33;
+  --secondcolor:#2A435D;
+
+  --bgc:#FFF8EE;
+}
+.bTn{
+  color: var(--bgc);
+/* H1 Heading 35px Roboto bold */
+font-family: var(--primaryfont);
+font-size: 35px;
+font-weight: 700;
+background-color: var(--primarycolor);
+border-radius: 20px;
+border: none;
+padding:10px 55px ;
+}
+
+/* nav */
+
+/* todo nav */
+/* BANNER SECTION  STARTS*/
+#banner .bannerCont h4{
+  color: var(--primarycolor);
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  padding-top: 24px;
+  padding-left: 50px;
+}
+#banner .bannerCont h1{
+  color: var(--secondcolor);
+  font-family: var(--primaryfont);
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 800;
+  padding-top: 11px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+}
+#banner .bannerCont h1 span{
+color: var(--primarycolor);
+}
+#banner .bannerCont .bTn{
+  color: var(--bgc);
+  /* H1 Heading 35px Roboto bold */
+  font-family:var(--primaryfont) ;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 10px 17px;
+  border-radius: 10px;
+  margin-left: 100px;
+  display: inline-block;
+}
+#banner .bannerCont .bannerPricees{
+  color: var(--secondcolor);
+  /* H1 Heading 25px Roboto Regular */
+  font-family: var(--primaryfont);
+  font-size: 25px;
+  font-weight: 400;
+  padding-left:30px ;
+}
+#banner .bannerCont ul li {
+  display: inline-block;
+  padding-left: 7px;
+  padding-top: 14px;
+  font-size: 32px;
+}
+#banner .bannerCont ul li a{
+  color: var(--primarycolor);
+}
+.bannerImges img {
+  width: 100%;
+  background-position: center;
+
+}
+/* BANNER SECTION  ENDS*/
+/* popular section starts */
+#popular{
+  padding-bottom: 50px;
+}
+#popular h5{
+color:var(--secondcolor);
+/* H1 Heading 20px Roboto bold */
+font-family: var(--primaryfont);
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+padding-top: 60px;
+padding-bottom: 3px;
+}
+#popular h2{
+color:var(--primarycolor);
+/* H1 Heading 35px Roboto bold */
+font-family: var(--primaryfont);
+font-size: 35px;
+font-weight: 700;
+text-align: center;
+padding-bottom: 20px;
+}
+#popular .popularCont{
+  padding: 0;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+/* todo popular section ends */
+
+/* richhelth section starts */
+#rech_helth h6{
+color: var(--secondcolor);
+/* H1 Heading 20px Roboto bold */
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 15px;
+}
+#rech_helth .rech_cont h4{
+  color: var(--primarycolor);
+/* H1 Heading 35px Roboto bold */
+font-family: var(--primaryfont);
+font-size: 35px;
+font-weight: 700;
+}
+#rech_helth .rech_cont p{
+  color:var(--secondcolor);
+  /* H1 Heading 25px Roboto Regular */
+  font-family: var(--primaryfont);
+  font-size: 25px;
+  font-weight: 400;
+  padding: 30px 0 11px 0;
+}
+#rech_helth .rech_cont-cont p{
+  color: var(--secondcolor);
+  /* H1 Heading 25px Roboto Regular */
+  font-family: var(--primaryfont);
+  font-size: 19px;
+  font-weight: 400;
+}
+#rech_helth .rech_cont-cont p span{
+  color: var(--primarycolor);
+}
+#rech_helth .rech_cont-cont .bTn{
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+/* todo richhelth section ends */
+
+/* bigg offer section starts */
+#bigg_offer h2{
+  color: var(--primarycolor);
+/* H1 Heading 50px Roboto bold */
+font-family:var(--primaryfont);
+font-size: 50px;
+font-style: italic;
+font-weight: 800;
+text-align: center;
+margin-top: 50px;
+}
+#bigg_offer p{
+  color: var(--secondcolor);
+  /* H1 Heading 20px Roboto bold */
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-top:15px ;
+  padding-bottom:24px ;
+}
+.biggOfferContImg img{
+  width: 100%;
+  display: block;
+  height: 217px;
+  object-fit: cover;
+  object-position: center;
+}
+.biggOfferCont:nth-child(1) {
+  /* transform: translateX(-50px); */
+  padding-left: 0;
+}
+.biggOfferCont:nth-child(3) {
+  /* transform: translateX(-50px); */
+  padding-right: 0;
+}
+
+.biggOfferSlid img{
+  width: 100%;
+  height: 450px;
+  padding: 0 30px;
+}
+/*todo bigg offer section ends */
+
+/* CHECKOUT MENU SECTION STARTS */
+#checkOut{
+  padding: 100px 0;
+}
+.nav-pills .nav-link, .nav-pills .show>.nav-link {
+  font-size: 25px;
+  padding: 15px 55px ;
+  color: var(--primarycolor);
+  /* H1 Heading 25px Roboto Regular */
+  font-family: var(--primaryfont);
+  font-size: 25px;
+  font-weight: 400;
+  }
+  
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #C33;
+    color: var(--bgc);
+  }
+#checkOut .checkOutHeadig{
+  color: var(--primarycolor);
+  /* H1 Heading 20px Roboto bold */
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  font-weight: 700;
+  justify-content: center;
+  display: flex;
+}
+#checkOut h2{
+  color:var(--secondcolor);
+  /* H1 Heading 35px Roboto bold */
+  font-family: var(--primaryfont);
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  padding:15px 0 15px 0;
+}
+#checkOut p{
+  color: var(--secondcolor);
+  /* H1 Heading 16px Roboto bold */
+  font-family: var(--primaryfont);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 21px;
+}
+#checkOut .checkOutImg{
+  padding: 0;
+}
+#checkOut .checkOutCont{
+  padding: 0;
+}
+#checkOut .checkOutContDetails{
+  padding: 0;
+}
+#checkOut .checkOutContDetails h3{
+color: var(--primarycolor);
+/* H1 Heading 25px Roboto Regular */
+font-family: var(--primaryfont);
+font-size: 25px;
+font-weight: 400;
+
+/* padding-bottom: 10px; */
+} 
+#checkOut .checkOutContDetails h5{
+  color: var(--secondcolor);
+  /* H1 Heading 18px Roboto Regular */
+  font-family: var(--primaryfont);
+  font-size: 18px;
+  font-weight: 400;  
+  border-bottom: 2px dashed var(--primarycolor);
+  padding-bottom: 10px;
+  padding-top:10px ;
+} 
+#checkOut .checkOutContPrices span{
+  color: var(--primarycolor);
+  /* H1 Heading 20px Roboto bold */
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 56px;
+  display: block;
+ }
+ #checkOut .checkOutImg .bTn{
+  border-radius: 0;
+  padding: 10px 0;
+  padding-left: 88px;
+  /* padding: 10px 137px 10px 91px; */
+ }
+ #checkOut .checkOutImg span{
+  width: 33.33px;
+  height: 33.33px;
+  line-height: 33.33px;
+  text-align: center;
+  border-radius: 50%;
+  text-align: right;
+  margin-left: 85px;
+  padding-right: 14px;
+ }
+/* CHECKOUT MENU SECTION ENDS */
+/* speacial_menu section starts */
+#speacial_menu{
+  margin-bottom: 83px;
+}
+#speacial_menu h2{
+  color: var(--primarycolor);
+/* H1 Heading 35px Roboto bold */
+font-family:var(--primaryfont);
+font-size: 35px;
+font-weight: 700;
+text-align: center;
+padding-top: 70px;
+padding-bottom: 31px;
+}
+#speacial_menu .speacial_menu_img_cont{
+  text-align: center;
+  border-radius: 20px;
+  padding:15px 0;
+  margin-bottom: 15px;
+  transition: 0.34s;
+}
+#speacial_menu .speacial_menu_img_cont p{
+  text-align: center;
+  color: var(--primarycolor);
+/* H1 Heading 25px Roboto Regular */
+font-family: var(--primaryfont);
+font-size: 14px;
+font-weight: 400;
+transition: 0.34s;
+}
+#speacial_menu .speacial_menu_img_cont:hover {
+  background-color: var(--primarycolor);
+}
+#speacial_menu .speacial_menu_img_cont:hover p{
+  color: var(--bgc);
+}
+/* speacial_menu section ends */
+/* Our Restaurant section starts */
+#restaurant .restaurantHEeading{
+color: var(--primarycolor);
+/* H1 Heading 20px Roboto bold */
+font-family:var(--primaryfont);
+font-size: 20px;
+font-weight: 700;
+margin-top: -85px;
+padding-bottom: 15px;
+}
+.restaurantCont h3{
+  color: var(--secondcolor);
+  /* H1 Heading 35px Roboto bold */
+  font-family: var(--primaryfont);
+  font-size: 35px;
+  font-weight: 700;
+
+}
+.restaurantCont p{
+  color: var(--secondaryfont);
+  /* H1 Heading 18px Roboto Regular */
+  font-family: var(--primaryfont);
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 25px;
+  padding-top:15px ;
+}
+#restaurant .restaurantContDetailsImg .restaurantContDetailsIcon{
+  border: 3px solid var(--primarycolor);
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+
+}
+.restaurantContDetails h3{
+  color: var(--primarycolor);
+  /* H1 Heading 35px Roboto bold */
+  font-family: var(--primaryfont);
+  font-size: 35px;
+  font-weight: 700;
+}
+.restaurantContDetails p{
+  color: var(--secondcolor);
+  /* H1 Heading 18px Roboto Regular */
+  font-family: var(--primaryfont);
+  font-size: 18px;
+  font-weight: 400;
+}
+ .restaurantContDetails .bTn{
+  color: var(--primarycolor);
+  /* H1 Heading 20px Roboto bold */
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  border-radius:25px ;
+  background-color: transparent;
+  transition: 0.34s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.restaurantContDetails .bTn span{
+  position: absolute;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  padding-left: 18px;
+}
+.restaurantContDetails .bTn:hover{
+background-color: var(--primarycolor);
+color: var(--bgc);
+}
+/* Our Restaurant section ends */
+/* delivery secton starts */
+#delivery .delivery_cont{
+  padding-left: 39px;
+}
+#delivery .delivery_cont h5{
+  color: var(--primarycolor);
+  /* H1 Heading 20px Roboto bold */
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 94px;
+  padding-left: 158px;
+}
+#delivery .delivery_cont h2{
+  color: var(--secondcolor);
+  /* H1 Heading 35px Roboto bold */
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 27px 0 29px 0 ;
+}
+#delivery .delivery_cont h2 span{
+  color: var(--primarycolor);
+  font-size: 35px;
+
+}
+#delivery .delivery_cont p{
+  color:var(--secondcolor);
+/* H1 Heading 18px Roboto Regular */
+font-family: var(--primaryfont);
+font-size: 18px;
+font-weight: 400;
+}
+#delivery .delivery_img{
+  padding-top: 144px;
+}
+/** */ deliveryOrderDetils */
+#delivery .delivery_cont .deliveryOrderCont{
+  margin-left: 200px;
+}
+#delivery .delivery_cont .deliveryOrderCont h6{
+color: var(--secondcolor);
+/* H1 Heading 20px Roboto bold */
+font-family:var(--primaryfont);
+font-size: 20px;
+font-weight: 700;
+}
+#delivery .delivery_cont .deliveryOrderCont p{
+color: var(--secondcolor);
+/* H1 Heading 16px Roboto bold */
+font-family: var(--primaryfont);
+font-size: 15px;
+font-weight: 400;
+}
+#delivery .delivery_cont .deliveryOrderImg{
+  text-align: left;
+ margin: 0 -16px;
+}
+#delivery .delivery_cont .deliveryOrderNow .bTn{
+  color: var(--bgc);
+/* H1 Heading 25px Roboto Regular */
+font-family: var(--primaryfont);
+font-size: 25px;
+font-weight: 400;
+padding:10px 19px 11px 21px; 
+border-radius: 10px;
+/* margin-left: 10px; */
+}
+.delivery_cont .deliveryOrder{
+  padding-left: 21px;
+}
+.delivery_cont .deliveryOrderNow {
+  padding-top: 69px;
+}
+.delivery_cont .deliveryOrder{
+  padding-top: 69px;
+}
+/* delivery secton ends */
+
+/* Best starts */
+#best{
+  padding-top: 90px;
+}
+#best .bestHeading{
+  color: var(--primarycolor);
+  /* H1 Heading 20px Roboto bold */
+  font-family:var(--primaryfont);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 33px !important;
+  display: block;
+}
+.bestCont{
+  text-align: center;
+  padding: 18px 29px;
+  position: relative;
+  z-index: 1;
+}
+.bestCont::after{
+  content: '';
+  background-color: var(--primarycolor);
+  inset: 0;
+  height: 0;
+  z-index: -1;
+  position: absolute;
+  transition: .35s;
+}
+.bestCont:hover *{
+  color: var(--bgc);
+}
+.bestCont:hover::after{
+  height: 100%;
+  border-radius: 5px;
+}
+.bestCont .bestImage{
+  position: relative;
+}
+
+.bestCont .bestImage img {
+  padding-top: 26px;
+  padding-right: 35px;
+}
+.bestCont .bestImage span{
+  position: absolute; 
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: var(--primarycolor);
+  border-radius: 50%;
+  color:var(--bgc);
+/* H1 Heading 35px Roboto bold */
+font-family: var(--primaryfont);
+font-size: 35px;
+font-weight: 700;
+z-index: -1;
+right: 34px;
+padding-bottom:30px ;
+transition: 0.97s;
+}
+.bestCont:hover .bestImage span{
+  color: var(--primarycolor);
+  z-index: 1;
+  background-color: var(--bgc);
+}
+.bestContent .bTn{
+padding: 10px 17px 11px 21px;
+border-radius: 10px;
+color: var(--bgc);
+margin-top: 61px;
+margin-left: 130px;
+/* H1 Heading 25px Roboto Regular */
+font-family: var(--primaryfont);
+font-size: 25px;
+font-weight: 400;
+transition: 0.45s;
+}
+.bestContent:hover .bTn{
+  background-color: var(--bgc);
+  color: var(--primarycolor);
+}
+.bestContent h3{
+  color: var(--secondcolor);
+  /* H1 Heading 20px Roboto bold */
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  transition: 0.45s;
+  }
+  .bestContent p{
+    color: var(--secondcolor);
+    /* H1 Heading 18px Roboto Regular */
+    font-family: var(--primaryfont);
+    font-size: 18px;
+    font-weight: 400;
+  transition: 0.45s;
+  }
+/* Best ends */
+/* tex */
+#testimonial .testimonialHeading{
+  color: var(--primarycolor);
+  /* H1 Heading 20px Roboto bold */
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 80px;
+  text-align: center;
+}
+#testimonial h2{
+  color: var(--secondcolor);
+  /* H1 Heading 35px Roboto bold */
+  font-family: var(--primaryfont);
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#testimonial h2 span{
+  color: var(--primarycolor);
+}
+.testimonialSliderCont h4{
+color: var(--secondcolor);
+text-align: center;
+/* H1 Heading 25px Roboto Regular */
+font-family: var(--primaryfont);
+font-size: 25px;
+font-weight: 400;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.testimonialSliderCont p{
+color:var(--secondcolor);
+text-align: center;
+/* H1 Heading 18px Roboto Regular */
+font-family: var(--primaryfont);
+font-size: 18px;
+font-weight: 400;
+}
+.testimonialSliderCont img{
+  display: block;
+  margin: auto;
+}
+.testimonialSliderCont ul li{
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 26px;
+  text-align: right;
+}
+.testimonialSliderCont ul{
+  text-align: right;
+}
+.testimonialSliderCont ul li span{
+color: var(--primarycolor);
+font-size: 20px;
+text-align: right;
+}
+.testimonialSliderCont img{
+  text-align: center;
+}
+.testimonialSliderContImg img{
+  text-align: center;
+}
+.testimonialSliderCont {
+  opacity: 0.2;
+  scale: 0.8;
+  transition: 0.4s ease-in-out;
+}
+.testimonialSliderCont.slick-center{
+  opacity: 1;
+  scale: 1;
+}
+/* tex */

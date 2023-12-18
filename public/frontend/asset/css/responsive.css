@@ -1,0 +1,789 @@
+
+@media (max-width:319px){
+    #Header .hours span i {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:320px) and (max-width:991px){
+    /* header section */
+    #Header {
+        padding: 10px 0;
+    }
+
+
+    #Header .hours span i {
+        font-size: 14px;
+    }
+
+    .headerCnt1{
+        margin-top: -5px;
+    }
+
+    .headerCnt1 i {
+        font-size: 14px;
+
+    }
+
+   #Header 
+   .hours, .headerCnt1 span {
+    font-size: 8px;
+   }
+
+   .headerCnt2 a {
+    font-size: 8px;
+   }
+
+   .headerCnt2 button {
+    padding: 5px;
+   
+   }
+ /* header section ends */
+ /* NAv section starts */
+ .navbar{
+    margin-top: -8px;
+ }
+
+.navbar .navbar-toggler{
+    border:none;
+    color: #000000;
+  }
+
+  .navbar .navbar-toggler img{
+  width: 40px;
+  height: 35px;
+    
+  }
+
+nav .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+ .navbar .navbar-brand img {
+    width: 60px;
+    height: 40px;
+}
+
+ /* Nav section ends */
+
+/* items Banner section  */
+
+#ItemsBanner {
+    width: 100%;
+    height: 95px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ItemsBanner h1 {
+    padding-top: 16px;
+    font-size: 24px;
+}
+
+#ItemsBanner p {
+    font-size: 10px;
+    padding: 0px 0px;
+}
+
+/* items Banner section ends */
+
+/* searchBar Section  */
+.searchBar {
+    padding: 20px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.form_control {
+    width: 400px;
+    height: 54px;
+    padding: 0px 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0.5;
+    border: 9px solid var(--primarycolor);
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.searchBar .FORM .Btn {
+    font-size: 18px;
+    padding: 10px 16px;
+    border-radius: 13px;
+}
+/* searchBar Section ends */
+
+/* items product section */
+#ItemsProduct h1 {
+    padding-top: 30px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.productcard .cardCnt1 {
+    padding: 10px 0 0 24px;
+}
+
+.productCnt1 .productcard {
+    height: 120px;
+}
+
+.productcard .cardCnt1 h2 {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.productcard .cardCnt1 p {
+    font-size: 9px;
+}
+
+.productcard .cardCnt1 h4 {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.productCnt2 img {
+    height: 240px;
+}
+
+.productCnt2 .productcard .cardCnt2 img {
+    width: 100px;
+    height: 120px;
+    margin: -10px 0px 0px 7px;
+}
+
+.productCnt2 .productcard {
+    height: 120px;
+}
+
+
+#itemsList_ooffer img {
+    width: 100%;
+    height: 110px;
+}
+/* items product section ends */
+
+/* items Offers banner */
+#itemsList_ooffer img {
+    margin: 10px 0 -5px;
+}
+
+.productCnt1 .productcard {
+    margin-top: 10px;
+}
+/* items offers banner ends */
+
+/* footer section  */
+#contactus h2 {
+    font-size: 20px;
+    padding: 30px 0 10px 0;
+}
+
+#contactus .footer_cnt {
+    height: 110px;
+}
+
+#contactus .contactinfo {
+    margin-top: 20px;
+}
+
+#contactus .contactinfo h1 {
+    font-size: 9px;
+}
+
+#contactus .contactinfo h4 {
+    font-size: 7px;
+    margin-bottom: -5px;
+}
+
+#contactus .contactCnt {
+    padding-left: 0px;
+}
+
+.hours_text span {
+    font-size: 8px;
+}
+
+.contact_text span {
+    font-size: 8px;
+    display: block;
+}
+
+.contactinfo .maps_cnt a {
+    font-size: 7px;
+}
+
+/* footer section ends */
+
+/* underFooter section  */
+
+
+#underFooter {
+    height: 25px;
+    padding-top: 5px;
+}
+
+#underFooter h5{
+    font-size: 12px;
+}
+
+/* underfooter section ends */
+
+
+/* items details section  */
+
+#Items_details .detailsCnt1 img {
+    width: 100%;
+    height: 105px;
+}
+
+#Items_details .detailsCnt1 .details_Img img {
+    width: 103%;
+    height: 55px;
+    margin-top: 5px; 
+}
+
+#Items_details .detailsCnt1 .details_Img.img1{
+    padding-right: 5px;
+}
+
+#Items_details .detailsCnt1 .details_Img.img2{
+    padding-left: 5px;
+}
+
+#Items_details .detailsCnt2 p {
+    color: var(--secondcolor);
+    font-family: var(--primaryfont);
+    font-size: 5px;
+    font-weight: 400;
+}
+
+#Items_details .detailsCnt2 .Btn.BtnContent button {
+    margin: 8px 0 0 25px;
+    font-size: 10px;
+    padding: 8px 14px;
+}
+
+#Items_details span .SeeMore {
+    color: var(--primarycolor);
+    font-family: var(--primaryfont);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: block;
+    margin: 20px 0 0px 0;
+    padding-left: 30%;
+}
+
+
+
+/* items details section */
+
+/* My account section css */
+.wrapper {
+    width: 300px;
+    height: 490px;
+}
+
+.wrapper .form {
+    left: 3%;
+    
+}
+
+.wrapper .form form h2 {
+    font-size: 28px;
+}
+
+.wrapper .form form .form-group {
+    margin: 25px 0px 25px 10px;
+}
+
+.wrapper .form form .form-group input {
+    width: 95%;
+    height: 40px;
+}
+
+.wrapper .form form .form-group i, 
+.wrapper .form form .form-group label {
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+
+
+.wrapper .form form .forgot-pass {
+    margin: -14px 0 18px 10px;
+}
+
+.wrapper .form form .forgot-pass a {
+    font-size: 20px;
+}
+
+.wrapper .form form .btn {
+    width: 90px;
+    height: 45px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.wrapper .form form .link {
+    font-size: 16px;
+}
+/* My account Section css Ends */
+
+}
+
+@media (min-width: 320px) and (max-width: 1199.98px){
+    nav{
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  }
+  
+  
+  /* header secton starts */
+  @media (min-width: 320px) and (max-width: 575.98px){
+  
+    #Header 
+  .hours, .headerCnt1 span {
+      font-size: 8px;
+  }
+  .headerCnt2 button {
+    font-size: 10px;
+    padding: 8px 6px;
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    font-size: 15px;
+  }
+  .DeliveryCnt h1 {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .DeliveryCnt .NumberCnt a {
+    font-size: 12px;
+  }
+  }
+  /* header secton ends */
+  @media (min-width: 320px) and (max-width: 575.98px){
+    /* NAv section starts */
+  .navbar{
+    margin-top: -8px;
+  }
+  
+  .navbar .navbar-toggler{
+    border:none;
+    color: #000000;
+  }
+  
+  .navbar .navbar-toggler img{
+  width: 40px;
+  height: 35px;
+    
+  }
+  
+  nav .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  
+  
+  .navbar .navbar-brand img {
+    width: 60px;
+    height: 40px;
+  }
+  
+  /* Nav section ends */
+  
+  /* footer section  */
+  #contactus h2 {
+    font-size: 20px;
+    padding: 30px 0 10px 0;
+  }
+  
+  #contactus .footer_cnt {
+    height: 110px;
+  }
+  
+  #contactus .contactinfo {
+    margin-top: 20px;
+  }
+  
+  #contactus .contactinfo h1 {
+    font-size: 9px;
+  }
+  
+  #contactus .contactinfo h4 {
+    font-size: 7px;
+    margin-bottom: -5px;
+  }
+  
+  #contactus .contactCnt {
+    padding-left: 0px;
+  }
+  
+  .hours_text span {
+    font-size: 8px;
+  }
+  
+  .contact_text span {
+    font-size: 8px;
+    display: block;
+  }
+  
+  .contactinfo .maps_cnt a {
+    font-size: 7px;
+  }
+  
+  /* footer section ends */
+  
+  /* underFooter section  */
+  
+  
+  #underFooter {
+    height: 25px;
+    padding-top: 5px;
+  }
+  
+  #underFooter h5{
+    font-size: 12px;
+  }
+  
+  /* underfooter section ends */
+  }
+  @media (min-width: 576px) and (max-width: 767.98px){
+    /* NAv section starts */
+  .navbar{
+    margin-top: -8px;
+  }
+  
+  .navbar .navbar-toggler{
+    border:none;
+    color: #000000;
+  }
+  
+  .navbar .navbar-toggler img{
+  width: 40px;
+  height: 35px;
+    
+  }
+  
+  nav .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  
+  
+  .navbar .navbar-brand img {
+    width: 60px;
+    height: 40px;
+  }
+  
+  /* Nav section ends */
+  
+  /* footer section  */
+  #contactus h2 {
+    font-size: 20px;
+    padding: 30px 0 10px 0;
+  }
+  
+  #contactus .footer_cnt {
+    height: 110px;
+  }
+  
+  #contactus .contactinfo {
+    margin-top: 20px;
+  }
+  
+  #contactus .contactinfo h1 {
+    font-size: 9px;
+  }
+  
+  #contactus .contactinfo h4 {
+    font-size: 7px;
+    margin-bottom: -5px;
+  }
+  
+  #contactus .contactCnt {
+    padding-left: 0px;
+  }
+  
+  .hours_text span {
+    font-size: 8px;
+  }
+  
+  .contact_text span {
+    font-size: 8px;
+    display: block;
+  }
+  
+  .contactinfo .maps_cnt a {
+    font-size: 7px;
+  }
+  
+  /* footer section ends */
+  
+  /* underFooter section  */
+  
+  
+  #underFooter {
+    height: 25px;
+    padding-top: 5px;
+  }
+  
+  #underFooter h5{
+    font-size: 12px;
+  }
+  
+  /* underfooter section ends */
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px){
+    /* NAv section starts */
+  .navbar{
+    margin-top: -8px;
+  }
+  
+  .navbar .navbar-toggler{
+    border:none;
+    color: #000000;
+  }
+  
+  .navbar .navbar-toggler img{
+  width: 40px;
+  height: 35px;
+    
+  }
+  
+  nav .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  
+  
+  .navbar .navbar-brand img {
+    width: 60px;
+    height: 40px;
+  }
+  
+  /* Nav section ends */
+  
+  /* footer section  */
+  #contactus h2 {
+    font-size: 20px;
+    padding: 30px 0 10px 0;
+  }
+  
+  #contactus .footer_cnt {
+    height: 110px;
+  }
+  
+  #contactus .contactinfo {
+    margin-top: 20px;
+  }
+  
+  #contactus .contactinfo h1 {
+    font-size: 16px;
+  }
+  
+  #contactus .contactinfo h4 {
+    font-size: 10px;
+    margin-bottom: -5px;
+  }
+  
+  #contactus .contactCnt {
+    padding-left: 0px;
+  }
+  
+  .hours_text span {
+    font-size: 8px;
+  }
+  
+  .contact_text span {
+    font-size: 8px;
+    display: block;
+  }
+  
+  .contactinfo .maps_cnt a {
+    font-size: 10px;
+  }
+  
+  /* footer section ends */
+  
+  /* underFooter section  */
+  
+  
+  #underFooter {
+    height: 25px;
+    padding-top: 5px;
+  }
+  
+  #underFooter h5{
+    font-size: 12px;
+  }
+  
+  /* underfooter section ends */
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px){
+    /* NAv section starts */
+  .navbar{
+    margin-top: -8px;
+  }
+  
+  .navbar .navbar-toggler{
+    border:none;
+    color: #000000;
+  }
+  
+  .navbar .navbar-toggler img{
+  width: 40px;
+  height: 35px;
+    
+  }
+  
+  nav .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  
+  
+  .navbar .navbar-brand img {
+    width: 60px;
+    height: 40px;
+  }
+  
+  /* Nav section ends */
+  
+  /* footer section  */
+  #contactus h2 {
+    font-size: 20px;
+    padding: 30px 0 10px 0;
+  }
+  
+  #contactus .footer_cnt {
+    height: 110px;
+  }
+  
+  #contactus .contactinfo {
+    margin-top: 20px;
+  }
+  
+  #contactus .contactinfo h1 {
+    font-size: 17px;
+  }
+  
+  #contactus .contactinfo h4 {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+  
+  #contactus .contactCnt {
+    padding-left: 0px;
+  }
+  
+  .hours_text span {
+    font-size: 11px;
+  }
+  
+  .contact_text span {
+    font-size: 11px;
+  }
+  
+  .contactinfo .maps_cnt a {
+    font-size: 10px;
+  }
+  
+  /* footer section ends */
+  
+  /* underFooter section  */
+  
+  
+  #underFooter {
+    height: 25px;
+    padding-top: 5px;
+  }
+  
+  #underFooter h5{
+    font-size: 12px;
+  }
+  
+  /* underfooter section ends */
+  }
+  @media (min-width: 1200px){
+    .contact_text span a {
+      font-size: 11px;
+  }
+  .hours span{
+    font-size: 10px;
+  }
+  .headerCnt1 a{
+    color: var(--thirdColor);
+    font-size: 10px;
+  }
+  }
+
+
+
+
+
+
+
+  @media (min-width: 320px) and (max-width: 400.98px){
+    .productcard .cardCnt2 img {
+      width: 100px;
+      height: 100px;
+      margin: 10px 0px 0px 7px;
+    }
+  }
+  @media (min-width: 401px) and (max-width: 575.98px){
+    .productcard .cardCnt2 img {
+      width: 100px;
+      height: 100px;
+      margin: 10px 0px 0px 36px;
+  }
+  .productCnt2 .productcard .cardCnt2 img {
+    width: 100px;
+    height: 120px;
+    margin: -10px 0px 0px 37px;
+}
+  }
+
+
+  @media (min-width: 576px) and (max-width: 767.98px){
+    .productCnt2 .productcard .cardCnt2 img {
+      width: 100px;
+      height: 120px;
+      margin: -10px 0px 0px 97px;
+  }
+  .productcard .cardCnt2 img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0px 0px 111px;
+}
+.productcard .cardCnt2 img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0px 0px 99px;
+}
+  }
+  @media (min-width: 768px) and (max-width: 991.98px){
+    .productCnt2 .productcard .cardCnt2 img {
+      width: 100px;
+      height: 120px;
+      margin: -10px 0px 0px 173px;
+  }
+  .productcard .cardCnt2 img {
+    width: 100px;
+    height: 100px;
+    margin: 7px 0px 0px 171px;
+}
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px){
+    .productcard .cardCnt2 img {
+      width: 150px;
+      height: 150px;
+      margin: 8px -10px 10px -16px;
+  }
+  .productCnt2 .productcard .cardCnt2 img {
+    width: 150px;
+    height: 165px;
+    margin: -14px 0px -15px -16px;
+}
+  }

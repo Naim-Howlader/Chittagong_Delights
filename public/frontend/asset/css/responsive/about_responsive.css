@@ -1,0 +1,667 @@
+ @media (min-width: 321px) and (max-width: 767px) {
+
+
+/* header section */
+#Header {
+    padding: 8px 0;
+}
+
+
+#Header .hours span i {
+    font-size: 14px;
+}
+
+.headerCnt1{
+    margin-top: -5px;
+}
+
+.headerCnt1 i {
+    font-size: 14px;
+
+}
+
+#Header 
+.hours, .headerCnt1 span {
+font-size: 8px;
+}
+
+.headerCnt2 a {
+font-size: 8px;
+}
+
+.headerCnt2 button {
+padding: 5px;
+
+}
+/* header section ends */
+/* NAv section starts */
+.navbar{
+margin-top: -8px;
+}
+
+.navbar .navbar-toggler{
+border:none;
+color: #000000;
+}
+
+.navbar .navbar-toggler img{
+width: 40px;
+height: 35px;
+
+}
+
+nav .navbar-toggler:focus{
+box-shadow: none;
+}
+
+
+.navbar .navbar-brand img {
+width: 60px;
+height: 40px;
+}
+
+/* Nav section ends */
+
+
+
+
+    /* BANNER SECTION start */
+    #aboutUs{
+        background-image: url('../image/banner.png');
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #aboutUs h2{
+        font-size: 25px;
+    }
+    #aboutUs h5{
+        font-size: 12px;
+    }
+
+    /*todo main section start */
+    .queen{
+        width: 320px;
+        height: 450px;
+        border: none;
+    }
+    .queen .queenImg{
+        width: 320px;
+        height: 200px; 
+        margin: 10px 0 20px 0px;
+        
+    }
+    .queen .queenImg img{
+        width: 320px;
+        height: 200px; 
+    }
+    .queenText{
+        width: 331px;
+        height: 200px; 
+        margin: 0px 0 10px;
+    }
+    .queen .queenText h3{
+        color:  var(--secondarycollor) ;
+        font-size: 15px;
+        margin: 0px 0 10px;
+    }
+    .queen .queenText h4{
+        font-size: 13px;
+    }
+
+    /** ourStory */
+    #ourStory h1{
+    font-size: 25px;
+    }
+    #ourStory .storyTxt{
+        margin-top: 0px;
+        padding: 0 10px;
+    }
+    #ourStory .storyTxt h2{
+    font-size: 13px;
+    }
+    #ourStory .storyimg img{
+        width: 320px;
+        height: 204px;
+    }
+
+    /** ourChef */
+    #ourChef{
+        margin: 30px 0 30px;
+    }
+    #ourChef .chefDes h3{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #ourChef .chefDes h2{
+        font-size: 30px;
+    }
+    #ourChef .chefDes h5{
+        font-size: 13px;
+    }
+    #ourChef .btn{
+        width: 170px;
+        height: 48px;
+        line-height: 36px;
+        font-size: 14px;
+        border-radius: 16px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 30%;
+    }
+    #ourChef .btn:hover{
+        color:var(--thirdcolor);
+        background-color:  var(--primarycolor);
+        border: 3px solid #C33;
+    }
+   
+    /** SPECIAL SERVICE SECTION START */
+    #service .serviceTxt{
+        margin-bottom: 20px;
+    }
+    #service .serviceTxt h2 {
+        font-size: 25px;
+        margin-bottom: 9px;
+    }
+    #service .serviceTxt h6 {
+        font-size: 15px;
+    }
+    #service .slider .slick{
+        display: inline-block;
+        margin: 0 5px;
+    }
+    #service .slider .slick h2{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    #service .slider .slick p{
+        font-size: 13px;
+    }
+    .customDots{
+        margin-top: 20px;
+    }
+    .customDots li{
+        margin: 0 4px;
+    }
+    .customDots li button{
+        width: 10px;
+        height: 10px;
+        border: 2px solid #C33;
+    }
+
+    /* *ourTeam START */
+    #ourTeam{
+        margin: 20px 0 0 0;
+    }
+    #ourTeam .teamIntro{
+        margin-bottom: 20px;
+    }
+    #ourTeam .teamIntro h2{
+        font-size: 25px;
+    }
+    #ourTeam .teamIntro h6{
+        font-size: 13px;
+    }
+     #ourTeam .team{
+        width: 360px;
+        height: 373px;
+    }
+    #ourTeam .team img {
+        width: 150px;
+        right: 25px;
+    }
+    #ourTeam .member{
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+        border: 3px solid #C33;
+        margin-bottom: 20px;
+        margin-top: 39px;
+    }
+    #ourTeam .team .icon .fa-brands{
+        font-size: 21px;
+        margin: 0 12px;
+    }
+    #ourTeam .member .memberInfo{
+        width: 170px;
+        margin-top: 45%;
+    }
+    #ourTeam .member .memberInfo h3{
+        font-size: 20px;
+    }
+    #ourTeam .member .memberInfo p{
+        font-size: 11px;
+    }
+    #ourTeam .team .icon .fa-brands{
+        font-size: 17px;
+        margin: 0 10px;
+    }
+    /* todo OUR BRANCH SECTION START */
+    .branch{
+        width: 100%;
+        padding: 20px 0 17px;
+    }
+    #ourBranch h2{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    #ourBranch .food{
+        margin-bottom: 20px;
+    }
+    #ourBranch .food h3{
+        font-size: 20px;
+    }
+    #ourBranch .food address{
+        font-size: 13px;
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+    #ourBranch .food .time{
+        padding: 0 10px 2px;
+        font-size: 10px;
+    }
+    #ourBranch .food .call{
+        padding: 0 0 10px;
+        font-size: 10px;
+    }
+    #ourBranch .food .timeCall {
+        margin-bottom: 3px;
+    }
+    #ourBranch .food .fa-solid{
+       font-size: 12px;
+    }
+    #ourBranch .food .map{
+    font-size: 13px;
+    }
+    /* todo OUR BRANCH SECTION DONE */
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 1199.98px){
+    nav{
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  }
+  
+  
+  /* header secton starts */
+  @media (min-width: 320px) and (max-width: 575.98px){
+  
+    #Header 
+  .hours, .headerCnt1 span {
+      font-size: 8px;
+  }
+  .headerCnt2 button {
+    font-size: 10px;
+    padding: 8px 6px;
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    font-size: 15px;
+  }
+  .DeliveryCnt h1 {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .DeliveryCnt .NumberCnt a {
+    font-size: 12px;
+  }
+  }
+  /* header secton ends */
+  @media (min-width: 320px) and (max-width: 575.98px){
+    /* NAv section starts */
+  .navbar{
+    margin-top: -8px;
+  }
+  
+  .navbar .navbar-toggler{
+    border:none;
+    color: #000000;
+  }
+  
+  .navbar .navbar-toggler img{
+  width: 40px;
+  height: 35px;
+    
+  }
+  
+  nav .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  
+  
+  .navbar .navbar-brand img {
+    width: 60px;
+    height: 40px;
+  }
+  
+  /* Nav section ends */
+  
+  /* footer section  */
+  #contactus h2 {
+    font-size: 20px;
+    padding: 30px 0 10px 0;
+  }
+  
+  #contactus .footer_cnt {
+    height: 110px;
+  }
+  
+  #contactus .contactinfo {
+    margin-top: 20px;
+  }
+  
+  #contactus .contactinfo h1 {
+    font-size: 9px;
+  }
+  
+  #contactus .contactinfo h4 {
+    font-size: 7px;
+    margin-bottom: -5px;
+  }
+  
+  #contactus .contactCnt {
+    padding-left: 0px;
+  }
+  
+  .hours_text span {
+    font-size: 8px;
+  }
+  
+  .contact_text span {
+    font-size: 8px;
+    display: block;
+  }
+  
+  .contactinfo .maps_cnt a {
+    font-size: 7px;
+  }
+  
+  /* footer section ends */
+  
+  /* underFooter section  */
+  
+  
+  #underFooter {
+    height: 25px;
+    padding-top: 5px;
+  }
+  
+  #underFooter h5{
+    font-size: 12px;
+  }
+  
+  /* underfooter section ends */
+  }
+  @media (min-width: 576px) and (max-width: 767.98px){
+    /* NAv section starts */
+  .navbar{
+    margin-top: -8px;
+  }
+  
+  .navbar .navbar-toggler{
+    border:none;
+    color: #000000;
+  }
+  
+  .navbar .navbar-toggler img{
+  width: 40px;
+  height: 35px;
+    
+  }
+  
+  nav .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  
+  
+  .navbar .navbar-brand img {
+    width: 60px;
+    height: 40px;
+  }
+  
+  /* Nav section ends */
+  
+  /* footer section  */
+  #contactus h2 {
+    font-size: 20px;
+    padding: 30px 0 10px 0;
+  }
+  
+  #contactus .footer_cnt {
+    height: 110px;
+  }
+  
+  #contactus .contactinfo {
+    margin-top: 20px;
+  }
+  
+  #contactus .contactinfo h1 {
+    font-size: 9px;
+  }
+  
+  #contactus .contactinfo h4 {
+    font-size: 7px;
+    margin-bottom: -5px;
+  }
+  
+  #contactus .contactCnt {
+    padding-left: 0px;
+  }
+  
+  .hours_text span {
+    font-size: 8px;
+  }
+  
+  .contact_text span {
+    font-size: 8px;
+    display: block;
+  }
+  
+  .contactinfo .maps_cnt a {
+    font-size: 7px;
+  }
+  
+  /* footer section ends */
+  
+  /* underFooter section  */
+  
+  
+  #underFooter {
+    height: 25px;
+    padding-top: 5px;
+  }
+  
+  #underFooter h5{
+    font-size: 12px;
+  }
+  
+  /* underfooter section ends */
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px){
+    /* NAv section starts */
+  .navbar{
+    margin-top: -8px;
+  }
+  
+  .navbar .navbar-toggler{
+    border:none;
+    color: #000000;
+  }
+  
+  .navbar .navbar-toggler img{
+  width: 40px;
+  height: 35px;
+    
+  }
+  
+  nav .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  
+  
+  .navbar .navbar-brand img {
+    width: 60px;
+    height: 40px;
+  }
+  
+  /* Nav section ends */
+  
+  /* footer section  */
+  #contactus h2 {
+    font-size: 20px;
+    padding: 30px 0 10px 0;
+  }
+  
+  #contactus .footer_cnt {
+    height: 110px;
+  }
+  
+  #contactus .contactinfo {
+    margin-top: 20px;
+  }
+  
+  #contactus .contactinfo h1 {
+    font-size: 16px;
+  }
+  
+  #contactus .contactinfo h4 {
+    font-size: 10px;
+    margin-bottom: -5px;
+  }
+  
+  #contactus .contactCnt {
+    padding-left: 0px;
+  }
+  
+  .hours_text span {
+    font-size: 8px;
+  }
+  
+  .contact_text span {
+    font-size: 8px;
+    display: block;
+  }
+  
+  .contactinfo .maps_cnt a {
+    font-size: 10px;
+  }
+  
+  /* footer section ends */
+  
+  /* underFooter section  */
+  
+  
+  #underFooter {
+    height: 25px;
+    padding-top: 5px;
+  }
+  
+  #underFooter h5{
+    font-size: 12px;
+  }
+  
+  /* underfooter section ends */
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px){
+    /* NAv section starts */
+  .navbar{
+    margin-top: -8px;
+  }
+  
+  .navbar .navbar-toggler{
+    border:none;
+    color: #000000;
+  }
+  
+  .navbar .navbar-toggler img{
+  width: 40px;
+  height: 35px;
+    
+  }
+  
+  nav .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  
+  
+  .navbar .navbar-brand img {
+    width: 60px;
+    height: 40px;
+  }
+  
+  /* Nav section ends */
+  
+  /* footer section  */
+  #contactus h2 {
+    font-size: 20px;
+    padding: 30px 0 10px 0;
+  }
+  
+  #contactus .footer_cnt {
+    height: 110px;
+  }
+  
+  #contactus .contactinfo {
+    margin-top: 20px;
+  }
+  
+  #contactus .contactinfo h1 {
+    font-size: 17px;
+  }
+  
+  #contactus .contactinfo h4 {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+  
+  #contactus .contactCnt {
+    padding-left: 0px;
+  }
+  
+  .hours_text span {
+    font-size: 11px;
+  }
+  
+  .contact_text span {
+    font-size: 11px;
+  }
+  
+  .contactinfo .maps_cnt a {
+    font-size: 10px;
+  }
+  
+  /* footer section ends */
+  
+  /* underFooter section  */
+  
+  
+  #underFooter {
+    height: 25px;
+    padding-top: 5px;
+  }
+  
+  #underFooter h5{
+    font-size: 12px;
+  }
+  
+  /* underfooter section ends */
+  }
+  @media (min-width: 1200px){
+    .contact_text span a {
+      font-size: 11px;
+  }
+  .hours span{
+    font-size: 10px;
+  }
+  .headerCnt1 a{
+    color: var(--thirdColor);
+    font-size: 10px;
+  }
+  }
+  

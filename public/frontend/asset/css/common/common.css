@@ -1,0 +1,368 @@
+/* googlefont */
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Condensed:ital,wght@1,500;1,800&family=Roboto:wght@400;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+ul,ol{
+  list-style: none;
+}
+.container{
+  margin: auto;
+}
+h1,h2,h3,h4,h5,h6,ol,ul,span,p{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+body{
+  background-color: var(--bgc);
+  overflow-x: hidden;
+}
+:root{
+  --primaryfont: 'Roboto', sans-serif;
+  --secondaryfont:'Roboto Condensed', sans-serif;
+  --thirdfont: 'Inter', sans-serif;
+  --red:#C33;
+  --secondcolor:#2A435D;
+  --bgc:#FFF8EE;
+  --FourColor:#FFF8EE;
+  --thirdColor:#fff;
+
+
+}
+
+/* cutomdots css */
+.customDots{
+  position: absolute;
+  left: 81%;
+  bottom: 30%;
+}
+.customDot{
+  position: absolute;
+  left: 81%;
+}
+
+.customDots li{
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 0px;
+  color: bisque;
+  
+}
+
+.customDots li button{
+  width: 13px;
+  height: 13px;
+  background-color: #333;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.45s;
+}
+
+.customDots li.slick-active button{
+  background-color:var(--red);
+  
+}
+
+
+.customDot{
+  position: absolute;
+  left: 45%;
+}
+.customDot li{
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 0px;
+  color: bisque;
+  
+}
+
+.customDot li button{
+  width: 13px;
+  height: 13px;
+  background-color: #333;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.45s;
+}
+
+.customDot li.slick-active button{
+  background-color:var(--red);
+  
+}
+/* cutomdots css end */
+/* rakib */
+/* HEADER CSS  */
+#Header{
+  background-color: var(--red);
+  padding: 8px 0;
+}
+
+/* HEADER CSS ENDS */
+#Header .hours span i{
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+#Header 
+.hours, 
+.headerCnt1 span{
+  color: var(--thirdColor);
+  font-family: var(--primaryfont);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.headerCnt1 i{
+ font-size: 20px; 
+ margin-right: 8px;
+}
+.headerCnt1 a{
+  color: var(--thirdColor);
+}
+.headerCnt2 a{
+  color: var(--thirdColor);
+  font-family: var(--primaryfont);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: right;
+  display: block;
+}
+.headerCnt2 button{
+  background-color: transparent;
+  border: 1px solid var(--thirdColor);
+  padding: 8px;
+  color: var(--thirdColor);
+  transition: 0.45s;
+}
+.headerCnt2 button:hover{
+  background-color: rgba(0, 0,0, 0.35);
+}
+/* NavBar Css  */
+
+
+.navbar .navbar-brand img{
+  width: 90px;
+  height: 60px;
+}
+
+.navbar .nav-item a{
+  color: var(--secondcolor);
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 30px;
+}
+.DeliveryIcon{
+  font-size: 35px;
+  margin-right: 13px;
+  color: var(--secondcolor);
+  position: relative;
+}
+.DeliveryIcon a{
+  color: var(--secondcolor);
+}
+.DeliveryIcon span{
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  color: var(--thirdColor);
+  font-family: var(--primaryfont);
+  font-size: 15px;
+  font-style: normal;
+  font-weight:600;
+  line-height: normal;
+  background-color: var(--secondcolor);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+.DeliveryImg img{
+  width: 35px;
+  height: 35px;
+  margin-right: 45px;
+}
+ 
+.DeliveryCnt h1{
+  color: var(--secondcolor);
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.DeliveryCnt .NumberCnt a{
+   color: var(--secondcolor);
+   font-family: var(--primaryfont);
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.Btn button{
+  color: var(--FourColor);
+  font-family:var(--primaryfont);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 8px 20px;
+  background-color: var(--red);
+  border-radius: 10px;
+
+}
+/* NavBar Css Ends */
+/* footer section css */
+
+#contactus h2{
+  color: var(--secondcolor);
+  font-family: var(--primaryfont);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding: 65px 0 35px 0;
+}
+#contactus .footer_cnt{
+  background-color: var(--red);
+  height: 198px;
+}
+
+#contactus .contactinfo{
+  text-align: center;
+  margin-top: 35px;
+}
+
+#contactus .contactinfo h1{
+  color: var(--thirdColor);
+  font-family: var(--primaryfont);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#contactus .contactinfo h4{
+  color: var(--thirdColor);
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#contactus .contactCnt{
+  padding-left: 50px;
+}
+
+.hours_text span{
+  color: var(--thirdColor);
+  font-family: var(--primaryfont);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+.contact_text span{
+  color: var(--thirdColor);
+  font-family: var(--primaryfont);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact_text span a{
+  color: var(--thirdColor);
+}
+
+.contactinfo .maps_cnt a{
+  color: #4BFF3C;
+  font-family: var(--primaryfont);
+  font-size: 18px;
+  display: block;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+/* footer section css ends */
+
+/* underfooter section css */
+#underFooter{
+  background-color: var(--secondcolor);
+  height: 40px;
+  color: var(--thirdColor);
+  font-family: var(--secondaryfont);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+/* underfooter section css ends */
+
+/* preloader section Css */
+
+.preloader{
+  background-color: #fff;
+  inset: 0;
+  z-index: 99;
+  position: fixed;
+  display: grid;
+  place-items: center;
+}
+
+/* preloader section Css Ends */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper .swiper-slide img{
+  width: 95%;
+  height: 400px;
+
+}
