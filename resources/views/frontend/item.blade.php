@@ -116,82 +116,23 @@
     <!-- left Card -->
     <div class="productCnt1 col-lg-6">
          <!-- card1 -->
+      @foreach ($foods5 as $item)
       <div class="productcard" data-aos="fade-up" data-aos-duration="1500" >
         <div class="row">
           <div class="cardCnt1 col-7 col-lg-8">
             <a href="{{asset('frontend/items_details1.html')}}">
-              <h2>Chicken Supreme Pizza</h2>
-            <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-            <h4>From $150</h4>
+              <h2>{{$item->name}}</h2>
+            <p>{{$item->short_description}}</p>
+            <h4>From TK {{$item->price}}</h4>
             </a>
           </div>
           <div class="cardCnt2 col-5 col-lg-4 ">
-            <a href="./items_details1.html"><img src="{{asset('frontend/asset/images/Items_images/image_itemsList_1.png')}}" alt=""></a>
+            <a href="./items_details1.html"><img src="{{asset($item->image1)}}" alt=""></a>
           </div>
         </div>
       </div>
-         <!-- card2 -->
-         <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
-          <div class="row">
-            <div class="cardCnt1 col-7 col-lg-8">
-             <a href="./items_details2.html">
-              <h2>Hamburger Burger with Beef</h2>
-              <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-              <h4>From $150</h4>
-             </a>
-            </div>
-            <div class="cardCnt2 col-5 col-lg-4">
-              <a href="./items_details2.html"><img src="{{asset('frontend/asset/images/Items_images/image_itemsList_2.png')}}" alt=""></a>
-            </div>
-          </div>
-        </div>
-         <!-- card3 -->
-      <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
-        <div class="row">
-          <div class="cardCnt1 col-7 col-lg-8">
-            <a href="./items_details3.html">
-              <h2>Belgium waffles with strawberries</h2>
-            <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-            <h4>From $150</h4>
-            </a>
-          </div>
-          <div class="cardCnt2 col-5 col-lg-4">
-            <a href="./items_details3.html"><img src="{{asset('frontend/asset/images/Items_images/image_itemsList_3.png')}}" alt=""></a>
-          </div>
-        </div>
-      </div>
+      @endforeach
 
-        <!-- card4 -->
-        <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
-          <div class="row">
-            <div class="cardCnt1 col-7 col-lg-8">
-             <a href="./items_details4.html">
-              <h2>Chicken skewers</h2>
-              <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-              <h4>From $150</h4>
-             </a>
-            </div>
-            <div class="cardCnt2 col-5 col-lg-4">
-              <a href="./items_details4.html"><img src="{{asset('frontend/asset/images/Items_images/image_itemsList_4.png')}}" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-          <!-- card5 -->
-      <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
-        <div class="row">
-          <div class="cardCnt1 col-7 col-lg-8">
-           <a href="./items_details5.html">
-            <h2>Delicious food on a white plate</h2>
-            <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-            <h4>From $150</h4>
-           </a>
-          </div>
-          <div class="cardCnt2 col-5 col-lg-4">
-            <a href="./items_details5.html"><img src="{{asset('frontend/asset/images/Items_images/image_itemsList_5.png')}}" alt=""></a>
-          </div>
-        </div>
-      </div>
 
     </div>
 
@@ -199,39 +140,22 @@
     <div class="productCnt2 col-lg-6">
       <img src="{{asset('frontend/asset/images/Items_images/image_itemsList_ooffer.jpg')}}" alt=""  data-aos="fade-up" data-aos-duration="1500">
 
-        <!-- card6 -->
-        <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
-          <div class="row">
-
-              <div class="cardCnt1 col-7 col-lg-8">
-                <a href="./items_details6.html">
-                <h2>Mutton or lamb biriyani</h2>
-                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-                <h4>From $150</h4>
-                </a>
-              </div>
-
-            <div class="cardCnt2 col-5 col-lg-4">
-              <a href="./items_details6.html"><img src="{{asset('frontend/asset/images/Items_images/image_itemsList_6.png')}}" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-          <!-- card7 -->
-      <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
+      @foreach ($foods2 as $item)
+      <div class="productcard" data-aos="fade-up" data-aos-duration="1500" >
         <div class="row">
           <div class="cardCnt1 col-7 col-lg-8">
-            <a href="./items_details7.html">
-              <h2>Spicy fried tubtim fish salad</h2>
-            <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-            <h4>From $150</h4>
+            <a href="{{asset('frontend/items_details1.html')}}">
+              <h2>{{$item->name}}</h2>
+            <p>{{$item->short_description}}</p>
+            <h4>From TK {{$item->price}}</h4>
             </a>
           </div>
-          <div class="cardCnt2 col-5 col-lg-4">
-            <a href="./items_details7.html"><img src="{{asset('frontend/asset/images/Items_images/image_itemsList_7.png')}}" alt=""></a>
+          <div class="cardCnt2 col-5 col-lg-4 ">
+            <a href="./items_details1.html"><img src="{{asset($item->image1)}}" alt=""></a>
           </div>
         </div>
       </div>
+      @endforeach
 
     </div>
   </div>
@@ -241,13 +165,13 @@
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="./asset/images/Items_images/image_itemsList_ooffer_2.jpg" alt="">
+        <img src="{{asset('frontend/asset/images/Items_images/image_itemsList_ooffer_2.jpg')}}" alt="">
       </div>
       <div class="swiper-slide">
-        <img src="./asset/images/Items_images/image_itemsList_ooffer_3.jpg" alt="">
+        <img src="{{asset('frontend/asset/images/Items_images/image_itemsList_ooffer_3.jpg')}}" alt="">
       </div>
       <div class="swiper-slide">
-        <img src="./asset/images/Items_images/image_itemsList_ooffer_4.jpg" alt="">
+        <img src="{{asset('frontend/asset/images/Items_images/image_itemsList_ooffer_4.jpg')}}" alt="">
       </div>
     </div>
     <!-- <div class="swiper-button-next"></div> -->
@@ -260,133 +184,24 @@
    <div class="row">
     <!-- left card  -->
     <div class="productCnt1 col-lg-6">
-        <!-- card1 -->
-        <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
-          <div class="row">
-            <div class="cardCnt1 col-7 col-lg-8">
-              <a href="./items_details8.html">
-                <h2>Fresh cola drink with green lime</h2>
-              <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-              <h4>From $150</h4>
-              </a>
-            </div>
-            <div class="cardCnt2 col-5 col-lg-4">
-              <a href="./items_details8.html"><img src="./asset/images/Items_images/image_itemsList_8.png" alt=""></a>
-            </div>
+        @foreach ($foods as $item)
+      <div class="productcard" data-aos="fade-up" data-aos-duration="1500" >
+        <div class="row">
+          <div class="cardCnt1 col-7 col-lg-8">
+            <a href="{{asset('frontend/items_details1.html')}}">
+              <h2>{{$item->name}}</h2>
+            <p>{{$item->short_description}}</p>
+            <h4>From TK {{$item->price}}</h4>
+            </a>
+          </div>
+          <div class="cardCnt2 col-5 col-lg-4 ">
+            <a href="./items_details1.html"><img src="{{asset($item->image1)}}" alt=""></a>
           </div>
         </div>
-           <!-- card2 -->
-           <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
-            <div class="row">
-              <div class="cardCnt1 col-7 col-lg-8">
-                <a href="./items_details9.html">
-                  <h2>Chocolate ice cream</h2>
-                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-                <h4>From $150</h4>
-                </a>
-              </div>
-              <div class="cardCnt2 col-5 col-lg-4">
-                <a href="./items_details9.html"><img src="./asset/images/Items_images/image_itemsList_10.jpg" alt=""></a>
-              </div>
-            </div>
-          </div>
-           <!-- card3 -->
-        <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
-          <div class="row">
-            <div class="cardCnt1 col-7 col-lg-8">
-             <a href="./items_details10.html">
-              <h2>Healthy breakfast</h2>
-              <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-              <h4>From $150</h4>
-             </a>
-            </div>
-            <div class="cardCnt2 col-5 col-lg-4">
-              <a href="./items_details10.html"><img src="./asset/images/Items_images/image_itemsList_12.jpg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-          <!-- card4 -->
-          <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
-            <div class="row">
-              <div class="cardCnt1 col-7 col-lg-8">
-                <a href="./items_details11.html">
-                  <h2>Ried eggs, sausages, zucchini</h2>
-                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-                <h4>From $150</h4>
-                </a>
-              </div>
-              <div class="cardCnt2 col-5 col-lg-4">
-                <a href="./items_details11.html"><img src="./asset/images/Items_images/image_itemsList_14.jpg" alt=""></a>
-              </div>
-            </div>
-          </div>
+      </div>
+      @endforeach
     </div>
-    <!-- right card -->
-    <div class="productCnt1 col-lg-6">
-      <!-- card1 -->
-      <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
-        <div class="row">
-          <div class="cardCnt1 col-7 col-lg-8">
-            <a href="./items_details12.html">
-              <h2>Ice cream cone</h2>
-            <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-            <h4>From $150</h4>
-            </a>
-          </div>
-          <div class="cardCnt2 col-5 col-lg-4">
-            <a href="./items_details12.html"><img src="./asset/images/Items_images/image_itemsList_9.png" alt=""></a>
-          </div>
-        </div>
-      </div>
-         <!-- card2 -->
-         <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
-          <div class="row">
-            <div class="cardCnt1 col-7 col-lg-8">
-              <a href="./items_details13.html">
-                <h2>Chocolate topping for ice cream cups</h2>
-              <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-              <h4>From $150</h4>
-              </a>
-            </div>
-            <div class="cardCnt2 col-5 col-lg-4">
-              <a href="./items_details13.html"><img src="./asset/images/Items_images/image_itemsList_11.jpg" alt=""></a>
-            </div>
-          </div>
-        </div>
-         <!-- card3 -->
-      <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
-        <div class="row">
-          <div class="cardCnt1 col-7 col-lg-8">
-            <a href="./items_details14.html">
-              <h2>Breakfast with coffee and fresh croissants</h2>
-            <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-            <h4>From $150</h4>
-            </a>
-          </div>
-          <div class="cardCnt2 col-5 col-lg-4">
-            <a href="./items_details14.html"><img src="./asset/images/Items_images/image_itemsList_13.jpg" alt=""></a>
-          </div>
-        </div>
-      </div>
 
-        <!-- card4 -->
-        <div class="productcard"  data-aos="fade-up" data-aos-duration="1500">
-          <div class="row">
-            <div class="cardCnt1 col-7 col-lg-8">
-              <a href="./items_details15.html">
-                <h2>Salad, fried eggs and pastry</h2>
-              <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
-              <h4>From $150</h4>
-              </a>
-            </div>
-            <div class="cardCnt2 col-5 col-lg-4">
-              <a href="./items_details15.html"><img src="./asset/images/Items_images/image_itemsList_15.jpg" alt=""></a>
-            </div>
-          </div>
-        </div>
-      </div>
-   </div>
 </div>
 </section>
 <!-- Items product Section Ends -->

@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\AdminProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\FoodController;
+use App\Http\Controllers\Frontend\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,10 +20,6 @@ use App\Http\Controllers\Admin\FoodController;
 Route::get('/', function () {
     return view('frontend.index');
 });
-Route::get('/items', function () {
-    return view('frontend.item');
-})->name('items');
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -47,7 +44,11 @@ Route::middleware(['auth:admin'])->group(function () {
 });
 
 require __DIR__.'/adminauth.php';
-
+//Admin Dashboard Routes
 Route::group(['middleware'=>['auth:admin'], 'prefix'=> 'dashboard'], function(){
     Route::resource('foods', FoodController::class);
 });
+
+
+//Frontend Routes
+Route::get('/items', [HomeController::class, 'items'])->name('items');

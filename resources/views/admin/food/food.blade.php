@@ -46,55 +46,74 @@
               <i class="ni ni-collection text-2.8"></i>
             </button>
           </div>
-          <div class="flex-auto px-0 pt-0 pb-2">
-            <div class="p-2 overflow-x-auto">
-              <table class="items-center w-full mb-0 align-top border-collapse dark:border-white/40 text-slate-500">
+          <div class="flex-auto px-5  pb-2 pt-5">
+            <div class="p-2 overflow-x-hidden">
+              <table  class="items-center w-full mb-0 align-top border-collapse dark:border-white/40 text-slate-500 overflow-x-hidden">
                 <thead class="align-bottom">
                   <tr>
-                    <th class="px-6 py-3 pl-2 font-bold text-left uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">#SL</th>
-                    <th class="px-6 py-3 pl-2 font-bold text-left uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Status</th>
+                    <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">#SL</th>
+                    {{-- <th class="px-6 py-3 pl-2 font-bold text-left uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Status</th> --}}
                     <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Category</th>
                     <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Name</th>
-                    <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Short Descriotion</th>
-                    <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Long Description</th>
+                    <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Price</th>
                     <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Image 1</th>
                     <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Image 2</th>
                     <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Image 3</th>
+                    <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Short Descriotion</th>
+                    <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Long Description</th>
+
                     <th class="px-6 py-3 font-bold text-center uppercase align-middle bg-transparent border-b border-collapse shadow-none dark:border-white/40 dark:text-white text-xxs border-b-solid tracking-none whitespace-nowrap text-slate-400 opacity-70">Action</th>
                   </tr>
                 </thead>
                 <tbody>
+                    @php
+                        $sl =1;
+                    @endphp
                   @foreach ($foods as $food)
                   <tr>
                     <td class="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap shadow-transparent">
-                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">1</span>
+                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">{{$sl++}}</span>
+                    </td>
+                    {{-- <td class="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap shadow-transparent">
+                        <span class="bg-gradient-to-tl from-slate-600 to-slate-300 px-2.5 text-xs rounded-1.8 py-1.4 inline-block whitespace-nowrap text-center align-baseline font-bold uppercase leading-none text-white">{{$food->status}}</span>
+                    </td> --}}
+                    <td class="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap shadow-transparent">
+                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">{{$food->category}}</span>
                     </td>
                     <td class="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap shadow-transparent">
-                        <h6 class="mb-0 text-sm leading-normal dark:text-white">{{$food->status}}</h6>
+                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">{{$food->name}}</span>
                     </td>
                     <td class="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap shadow-transparent">
-                        <h6 class="mb-0 text-sm leading-normal dark:text-white">{{$food->category}}</h6>
+                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">{{$food->price}}</span>
                     </td>
                     <td class="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap shadow-transparent">
-                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">23/04/18</span>
+                        <img src="{{asset($food->image1)}}" alt="" srcset="" style="width: 120px; height:80px">
                     </td>
                     <td class="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap shadow-transparent">
-                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">23/04/18</span>
+                        <img src="{{asset($food->image2)}}" alt="" srcset="" style="width: 120px; height:80px">
                     </td>
                     <td class="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap shadow-transparent">
-                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">23/04/18</span>
+                        <img src="{{asset($food->image3)}}" alt="" srcset="" style="width: 120px; height:80px">
                     </td>
                     <td class="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap shadow-transparent">
-                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">23/04/18</span>
+                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">{{$food->short_description}}</span>
                     </td>
                     <td class="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap shadow-transparent">
-                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">23/04/18</span>
+                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">{{$food->long_description}}</span>
                     </td>
                     <td class="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap shadow-transparent">
-                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">23/04/18</span>
-                    </td>
-                    <td class="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap shadow-transparent">
-                        <span class="text-xs font-semibold leading-tight dark:text-white dark:opacity-80 text-slate-400">23/04/18</span>
+                        <div class="flex">
+                            <div>
+                                <a href="{{route('foods.index')}}">
+                                    <button type="button" class="inline-block px-8 py-2 mb-4 ml-auto font-bold leading-normal text-center text-white align-middle transition-all ease-in bg-blue-500 border-0 rounded-lg shadow-md cursor-pointer text-xs tracking-tight-rem hover:shadow-xs hover:-translate-y-px active:opacity-85">Edit</button>
+                                  </a>
+                              </div>
+                              <div class="px-5">
+                                <a href="{{route('foods.index')}}">
+                                    <button type="button" class="inline-block px-8 py-2 mb-4 ml-auto font-bold leading-normal text-center text-white align-middle transition-all ease-in bg-gradient-to-tl from-red-600 to-orange-600 border-0 rounded-lg shadow-md cursor-pointer text-xs tracking-tight-rem hover:shadow-xs hover:-translate-y-px active:opacity-85">Delete</button>
+                                  </a>
+                              </div>
+                        </div>
                     </td>
 
                   </tr>
@@ -334,4 +353,18 @@
       </div>
     </div>
   </div>
+
+
+  @push('datatable')
+  <script>
+      $(function() {
+          $('table').DataTable({
+                  // autoWidth: true
+                  responsive: true,
+              })
+              .columns.adjust()
+              .responsive.recalc();
+      })
+  </script>
+@endpush
 @endsection
