@@ -19,7 +19,8 @@ use App\Http\Controllers\Frontend\HomeController;
 
 Route::get('/', function () {
     return view('frontend.index');
-});
+})->name('home');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -44,6 +45,7 @@ Route::middleware(['auth:admin'])->group(function () {
 });
 
 require __DIR__.'/adminauth.php';
+
 //Admin Dashboard Routes
 Route::group(['middleware'=>['auth:admin'], 'prefix'=> 'dashboard'], function(){
     Route::resource('foods', FoodController::class);
@@ -52,3 +54,4 @@ Route::group(['middleware'=>['auth:admin'], 'prefix'=> 'dashboard'], function(){
 
 //Frontend Routes
 Route::get('/items', [HomeController::class, 'items'])->name('items');
+Route::get('/item-details/{id}', [HomeController::class, 'itemDetails'])->name('item.details');

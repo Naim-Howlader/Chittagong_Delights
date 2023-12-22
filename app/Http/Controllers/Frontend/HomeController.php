@@ -14,4 +14,9 @@ class HomeController extends Controller
         $foods = Food::latest()->offset(7)->limit(PHP_INT_MAX)->get();
         return view('frontend.item',compact('foods5','foods2','foods'));
     }
+    public function itemDetails($id){
+        $food = Food::findOrFail($id);
+        $items = Food::where('id', '!=', $id)->latest()->take(6)->get();
+        return view('frontend.item-details', compact('food','items'));
+    }
 }
